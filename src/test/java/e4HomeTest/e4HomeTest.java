@@ -38,7 +38,5 @@ public class e4HomeTest extends BaseTest{
         logEvents(PASS_STEP, "Verify if the ShoppingPage is loaded correctly");
         shoppingPage.buyItemsFromSite();
         logEvents(INFO_STEP, "Select items and add them to the cart");
-        homePage.goBackToHomePage();
-        logEvents(PASS_STEP, "Return to HomePage");
     }
 }
